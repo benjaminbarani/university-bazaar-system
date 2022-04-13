@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+    <item
+        android:id="@+id/nav_marketplace"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Marketplace"/>
+    <item
+        android:id="@+id/nav_event"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="New Event"/>
+    <item
+        android:id="@+id/nav_clubs"
+        android:icon="@drawable/ic_baseline_group_24"
+        android:title="Clubs"/>
+    <item
+        android:id="@+id/nav_messaging"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="Messaging"/>
+
+</menu>

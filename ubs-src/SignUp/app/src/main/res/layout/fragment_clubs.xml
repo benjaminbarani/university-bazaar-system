@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you want to know more People"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                android:textColor="#D2ECEC"
+                android:background="#783EF6" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="418dp">
+
+
+                <ImageView
+                    android:id="@+id/im1"
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="1dp"
+                    android:background="#EDE7DE"
+                    android:src="@drawable/ic_newclub" />
+
+
+                <ImageView
+                    android:id="@+id/im2"
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/im1"
+                    android:background="#EDE7DE"
+                    android:src="@drawable/ic_clubs" />
+
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/im1"
+                android:layout_marginTop="-45dp"
+                android:background="#7E4CE1"
+                android:text="Create a new club"
+                android:textColor="#FDF9F9"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                style="@style/CardView.Light"/>
+
+            <Button
+                android:id="@+id/btncan"
+                style="@style/CardView.Light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:background="#7E4CE1"
+                android:text="Join"
+                android:textColor="#FFFBFB"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/btn_myCLubs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:background="#7E4CE1"
+                android:text="My Clubs"
+                android:textSize="25dp"
+                android:textColor="#F8F5F5"
+                android:textStyle="bold"
+                style="@style/CardView.Light"/>
+        </LinearLayout>
+</ScrollView>

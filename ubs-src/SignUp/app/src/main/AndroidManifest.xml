@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.signup">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SignUp">
+        <activity android:name=".MessagingFragment"></activity>
+        <activity android:name=".EditProfile" />
+        <activity android:name=".userProfile" />
+        <activity android:name=".PassSend"></activity>
+        <activity android:name=".FailSend"
+            android:parentActivityName=".SendMoney"/>
+        <activity
+            android:name=".RequestMoney"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SendMoney"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Homepage" />
+        <activity
+            android:name=".Registration"
+            android:windowSoftInputMode="stateVisible" />
+        <activity
+            android:name=".login"
+            android:windowSoftInputMode="stateVisible" />
+        <activity android:name=".newClubprofile" />
+        <activity android:name=".newClub" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
